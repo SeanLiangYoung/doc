@@ -1,0 +1,26 @@
+{
+  "name": "seanliangdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeanLiangYoung/doc.git"
+  },
+  "author": "seanliang <byondg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeanLiangYoung/doc/issues"
+  },
+  "homepage": "https://github.com/SeanLiangYoung/doc#readme",
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.45",
+    "vue": "^3.4.21"
+  }
+}
